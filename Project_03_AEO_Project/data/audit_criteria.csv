@@ -1,0 +1,28 @@
+id,category,weight,criterion,method
+C1,Content clarity and completeness,5,Priority page answers its primary user question directly,Manual review with URL and evidence
+C2,Content clarity and completeness,5,Headings and page organization make facts easy to locate,Manual review
+C3,Content clarity and completeness,5,Important factual claims have sources and context,Manual evidence check
+C4,Content clarity and completeness,5,Page adds useful original detail rather than generic filler,Manual comparison and review
+C5,Content clarity and completeness,5,Volatile facts have an owner and refresh process,Editorial workflow review
+Q1,Question coverage,3.75,Question set reflects actual audience language,Search/support/interview evidence
+Q2,Question coverage,3.75,Priority intents map to an appropriate page,Intent mapping
+Q3,Question coverage,3.75,Answers include relevant caveats and next steps,Manual page review
+Q4,Question coverage,3.75,Related journey questions are covered without thin duplication,Site/content map
+T1,Technical discoverability,4,Crawler access and robots directives were checked,Robots and authorized crawl
+T2,Technical discoverability,4,Canonical and indexability signals are coherent,Rendered page and Search Console
+T3,Technical discoverability,4,Important URLs are in sitemap and reachable by links,Crawl and sitemap comparison
+T4,Technical discoverability,4,Key content renders accessibly on mobile,Device and rendering review
+T5,Technical discoverability,4,Performance and accessibility have been reviewed,Lighthouse/field data/manual accessibility
+S1,Structured data,2.5,Structured data parses and uses relevant supported types,Official validator
+S2,Structured data,2.5,Markup matches visible page facts,Manual comparison
+S3,Structured data,2.5,Product/offer/identity values are accurate for the entity,Source and page comparison
+S4,Structured data,2.5,Breadcrumb and entity relationships are coherent,Validator and site hierarchy
+R1,Trust and credibility,4,Responsible author or accountable business is identifiable,Page/site review
+R2,Trust and credibility,4,High-impact claims cite appropriate primary evidence,Source review
+R3,Trust and credibility,4,Methods, limitations and update dates are transparent,Editorial review
+R4,Trust and credibility,4,Contact, policies and support routes are findable,Manual navigation
+R5,Trust and credibility,4,Reviews/data show accurate provenance and moderation,Manual policy/data review
+M1,Measurement readiness,2.5,Baseline and data sources are documented,Analytics/Search Console access review
+M2,Measurement readiness,2.5,Question/prompt sample can be repeated,Query log
+M3,Measurement readiness,2.5,Evidence and change history are retained,Audit workflow review
+M4,Measurement readiness,2.5,Outcomes can be segmented and reported with caveats,Measurement plan

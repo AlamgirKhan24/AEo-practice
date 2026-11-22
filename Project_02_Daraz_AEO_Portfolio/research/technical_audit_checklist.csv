@@ -1,0 +1,14 @@
+Area,Check,Why it matters,How to verify,Status,Severity if failing,Owner
+Crawlability,Can bots fetch key category and product URLs?,Discovery and rendering,Authorized crawl plus Search Console URL Inspection,Not tested,High,Technical SEO
+Indexability,Correct status/meta robots/canonical on product pages?,Avoid exclusion or wrong URL selection,HTTP inspection and URL Inspection,Not tested,High,Technical SEO
+Canonicalization,Are variants and tracking URLs consolidated?,Prevent duplicate URL signals,Crawl canonical tags and parameter variants,Not tested,High,Technical SEO
+Pagination,Are paginated category products discoverable without indexing thin filters?,Product discovery and crawl budget,Crawl representative categories and pagination,Not tested,Medium,Technical SEO
+Faceted navigation,Do filters create unbounded crawlable URL combinations?,Control duplicate/low-value URLs,URL pattern audit and crawl,Not tested,High,Technical SEO
+Rendering,Are title, price, availability, specs and links present in rendered HTML?,Search systems need accessible product facts,Compare HTML and rendered DOM,Not tested,High,Engineering
+Mobile,Can shoppers read and operate product details on mobile?,Mobile usability and conversion,Real device plus Lighthouse,Not tested,High,UX/engineering
+Performance,Are Core Web Vitals within Google's current good thresholds?,Page experience and UX,CrUX/PageSpeed Insights/Search Console,Not tested,Medium,Engineering
+Structured data,Does Product markup match visible current offer data?,Eligibility and machine interpretation,Rich Results Test and Schema Markup Validator,Sample only,High,SEO/engineering
+Images,Do important product images have descriptive alt and stable URLs?,Accessibility and image understanding,Manual accessibility and rendered inspection,Not tested,Medium,Content/engineering
+Internal links,Can category, brand, guide and product pages reach each other contextually?,Discovery and topical relationships,Site crawl and link graph,Not tested,Medium,SEO
+Sitemaps,Are canonical in-stock URLs included with accurate lastmod?,Discovery and freshness,Inspect sitemap and compare crawl,Not tested,Medium,Technical SEO
+Trust UX,Are seller, warranty, delivery, payment and returns clear before purchase?,Reduce uncertainty and improve answer completeness,Page review by SKU and city,Homepage links seen; SKU not tested,High,Commerce/content

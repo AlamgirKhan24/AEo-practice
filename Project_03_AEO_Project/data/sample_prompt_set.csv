@@ -1,0 +1,11 @@
+id,journey,query_or_prompt,market,language,record_fields
+P01,Learn,How do I choose [solution] for [need]?,Target country,English,Exact response; answer present; cited URLs; date; engine/version
+P02,Learn,What does [important term] mean and why does it matter?,Target country,English,Response; source URLs; omissions; date
+P03,Compare,Compare [brand] and [competitor] for [specific use case].,Target country,English,Response; entities mentioned; cited URLs; date
+P04,Compare,What should I check before buying [product/service]?,Target country,English,Response; brand mention; cited URLs; date
+P05,Brand,What is [brand] and what does it offer in [market]?,Target country,English,Response; mention framing; citation; date
+P06,Brand,Where can I find official information about [brand/product]?,Target country,English,Response; official citation presence; date
+P07,Transactional,What is the current [brand] process for [task]?,Target country,English,Response; currentness; official URL cited; date
+P08,Local,Recommend options for [need] in [city/country] and explain your criteria.,Target city,country language,Response; locality; evidence; citations; date
+P09,Trust,What evidence supports [high impact claim]?,Target country,English,Claim; cited primary sources; date
+P10,Navigation,What is the official website for [brand]?,Target country,English,URL returned; exact match; date
